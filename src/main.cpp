@@ -1,5 +1,8 @@
 #include <Arduino.h>
 #include "ui.h"
+#include "sd.h"
+#include "dustsensor.h"
+#include "time.h"
 
 void setup() {
   // put your setup code here, to run once:
