@@ -1,5 +1,8 @@
 #include <Arduino.h>
 #include "ui.h"
+#include "sd.h"
+#include "dustsensor.h"
+#include "time.h"
 
 // put function declarations here:
 int myFunction(int, int);
