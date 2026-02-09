@@ -3,6 +3,7 @@
 #include "sd.h"
 #include "dustsensor.h"
 #include "time.h"
+#include "tempsensor.h"
 
 void setup() {
   // put your setup code here, to run once:
