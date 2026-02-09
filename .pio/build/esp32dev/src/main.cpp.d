@@ -677,4 +677,5 @@
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_2.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_3.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_4.h include/sd.h \
- include/dustsensor.h
+ include/dustsensor.h include/temp_hum_sensor.h \
+ .pio/libdeps/esp32dev/DHT11/src/DHT11.h
