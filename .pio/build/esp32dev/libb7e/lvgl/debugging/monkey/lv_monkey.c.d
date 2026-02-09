@@ -1,0 +1,25 @@
+.pio/build/esp32dev/libb7e/lvgl/debugging/monkey/lv_monkey.c.o: \
+ .pio/libdeps/esp32dev/lvgl/src/debugging/monkey/lv_monkey.c \
+ .pio/libdeps/esp32dev/lvgl/src/debugging/monkey/lv_monkey_private.h \
+ .pio/libdeps/esp32dev/lvgl/src/debugging/monkey/lv_monkey.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_kconfig.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include/sdkconfig.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_attr.h \
+ .pio/libdeps/esp32dev/lvgl/lv_conf.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_group.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_ll.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_math.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_timer.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\tick\lv_tick.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_ll.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_event.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_array.h

@@ -1,0 +1,19 @@
+.pio/build/esp32dev/libb7e/lvgl/misc/lv_async.c.o: \
+ .pio/libdeps/esp32dev/lvgl/src/misc/lv_async.c \
+ .pio/libdeps/esp32dev/lvgl/src/misc/lv_async.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../lv_conf_kconfig.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include/sdkconfig.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_attr.h \
+ .pio/libdeps/esp32dev/lvgl/lv_conf.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/lv_timer_private.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/lv_timer.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../tick/lv_tick.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/lv_ll.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../stdlib/lv_mem.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../stdlib/lv_string.h \
+ w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h
