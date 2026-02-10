@@ -1,166 +1,166 @@
 .pio/build/esp32dev/src/main.cpp.o: src/main.cpp \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/FreeRTOS.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/FreeRTOSConfig_arch.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/xtensa_config.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/hal.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa-versions.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core-isa.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core-matmap.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/tie.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/system.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/xtensa_context.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa_context.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/corebits.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime-frames.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp_rom_sys.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/reset_reasons.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32/rom/ets_sys.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/projdefs.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/portable.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/deprecated_definitions.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/portmacro.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/specreg.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime-core-state.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xt_instr_macros.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/spinlock.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/cpu.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_cpu.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/cpu_hal.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_err.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/soc_caps.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/cpu_types.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include/hal/cpu_ll.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_attr.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/extreg.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_bit_defs.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/compare_set.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/soc_memory_types.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/soc.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_assert.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include/esp_private/crosscore_int.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_timer/include/esp_timer.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include/esp_newlib.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include/esp_heap_caps.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include/multi_heap.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include/esp_system.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_idf_version.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_mac.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_chip_info.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_random.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/portbenchmark.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa_api.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa_context.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/portmacro_deprecated.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/mpu_wrappers.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/task.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/list.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos/task_snapshot.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/semphr.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/queue.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/task.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_sleep.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/touch_sensor_types.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/gpio_types.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/gpio_periph.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/io_mux_reg.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_struct.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_reg.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_sig_map.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/queue.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/event_groups.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/timers.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include/esp_log.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include/esp_log_internal.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-matrix.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-uart.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/uart_types.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-gpio.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/variants/esp32/pins_arduino.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-touch.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-dac.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/gpio.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_intr_alloc.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_types.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32/rom/gpio.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-adc.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-i2c.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-ledc.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rmt.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-sigmadelta.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-timer.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-bt.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-psram.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rgb-led.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-cpu.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp8266-compat.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/stdlib_noniso.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/binary.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/WCharacter.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/pgmspace.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareSerial.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/HWCDC.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/USBCDC.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Esp.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_partition.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_flash.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/spi_flash_types.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/esp_flash_err.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash_counters.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/FreeRTOS.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/xtensa_config.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/hal.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/tie.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/system.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/xtensa_context.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa_context.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/corebits.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime-frames.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp_rom_sys.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/reset_reasons.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32/rom/ets_sys.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/projdefs.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/portable.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/deprecated_definitions.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/portmacro.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/specreg.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime-core-state.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xt_instr_macros.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/spinlock.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/cpu.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_cpu.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/cpu_hal.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_err.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/soc_caps.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/cpu_types.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include/hal/cpu_ll.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_attr.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/extreg.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_bit_defs.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/compare_set.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/soc_memory_types.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/soc.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_assert.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include/esp_private/crosscore_int.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_timer/include/esp_timer.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include/esp_newlib.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include/esp_heap_caps.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/heap/include/multi_heap.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_system/include/esp_system.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_idf_version.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_mac.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_chip_info.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_random.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/portbenchmark.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa_api.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa_context.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/port/xtensa/include/freertos/portmacro_deprecated.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/mpu_wrappers.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/task.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/list.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos/task_snapshot.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/semphr.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/queue.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/task.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_sleep.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/touch_sensor_types.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/gpio_types.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/gpio_periph.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/io_mux_reg.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_struct.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_reg.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_sig_map.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/queue.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/event_groups.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/timers.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include/esp_log.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/log/include/esp_log_internal.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-matrix.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-uart.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/uart_types.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-gpio.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/variants/esp32/pins_arduino.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-touch.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-dac.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/gpio.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_intr_alloc.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_types.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32/rom/gpio.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-adc.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-i2c.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-ledc.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rmt.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-sigmadelta.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-timer.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-bt.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-psram.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rgb-led.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-cpu.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp8266-compat.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/stdlib_noniso.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/binary.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/WCharacter.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/pgmspace.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareSerial.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/HWCDC.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/USBCDC.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Esp.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_partition.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_flash.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/spi_flash_types.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/esp_flash_err.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash_counters.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  include/display.h .pio/libdeps/esp32dev/TFT_eSPI/TFT_eSPI.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
  .pio/libdeps/esp32dev/TFT_eSPI/User_Setup_Select.h \
  .pio/libdeps/esp32dev/TFT_eSPI/User_Setup.h \
  .pio/libdeps/esp32dev/TFT_eSPI/TFT_Drivers/ILI9225_Defines.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Processors/TFT_eSPI_ESP32.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_reg.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/spi_master.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/spi_common.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/lldesc.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32/rom/lldesc.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/spi_periph.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/periph_defs.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/soc_pins.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_pins.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_pins.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/sdio_slave_pins.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/sdmmc_pins.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_struct.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/spi_types.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include/hal/gpio_ll.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_cntl_reg.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_io_reg.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include/hal/misc.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src/SPIFFS.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_reg.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/spi_master.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/spi_common.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/lldesc.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32/rom/lldesc.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/spi_periph.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/periph_defs.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/soc_pins.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_pins.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_pins.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/sdio_slave_pins.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/sdmmc_pins.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_struct.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/spi_types.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include/hal/gpio_ll.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_cntl_reg.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_io_reg.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include/hal/misc.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src/SPIFFS.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Fonts/glcdfont.c \
  .pio/libdeps/esp32dev/TFT_eSPI/Fonts/Font16.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Fonts/Font16.c \
@@ -231,7 +231,12 @@
  .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Smooth_font.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Button.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Sprite.h \
- .pio/libdeps/esp32dev/lvgl/lvgl.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd.h \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
+ include/dustsensor.h \
+ .pio/libdeps/esp32dev/Sharp\ GP2Y\ Dust\ Sensor/GP2YDustSensor.h \
+ include/temp_hum_sensor.h .pio/libdeps/esp32dev/DHT11/src/DHT11.h \
+ include/gui.h include/display.h .pio/libdeps/esp32dev/lvgl/lvgl.h \
  .pio/libdeps/esp32dev/lvgl/lv_version.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_init.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_conf_internal.h \
@@ -249,8 +254,8 @@
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_types.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_timer.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/../tick/lv_tick.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../tick/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../tick/../misc/lv_types.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_ll.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_math.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_array.h \
@@ -266,19 +271,19 @@
  .pio/libdeps/esp32dev/lvgl/src/misc/../stdlib/lv_mem.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_utils.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/../draw/lv_draw_buf.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_math.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_assert.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_palette.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color_op.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\stdlib\lv_string.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_area.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_math.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_assert.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_palette.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../misc/lv_color_op.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../stdlib/lv_string.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/../draw/lv_image_dsc.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/misc/../draw/../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_iter.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_circle_buf.h \
  .pio/libdeps/esp32dev/lvgl/src/misc/lv_tree.h \
@@ -289,31 +294,31 @@
  .pio/libdeps/esp32dev/lvgl/src/core/../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_types.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_style.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\font\lv_font.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\font\lv_symbol_def.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\draw\lv_draw_buf.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../font/lv_font.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../font/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../font/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../font/lv_symbol_def.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../font/../draw/lv_draw_buf.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../font/../misc/lv_area.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_color.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_area.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_anim.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_text.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\stdlib\lv_sprintf.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../stdlib/lv_sprintf.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_assert.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_bidi.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_grad.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\layouts\lv_layout.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\layouts\flex/lv_flex.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\layouts\grid/lv_grid.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/lv_layout.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/flex/lv_flex.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/flex/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/flex/../../misc/lv_area.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/grid/lv_grid.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/grid/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../misc/../layouts/grid/../../misc/lv_area.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_style_gen.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_area.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_color.h \
@@ -321,12 +326,14 @@
  .pio/libdeps/esp32dev/lvgl/src/core/lv_obj_tree.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_anim.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../display/lv_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_timer.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_event.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_array.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../display/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../display/../misc/lv_timer.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../display/../misc/lv_event.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../display/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../display/../misc/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../display/../misc/lv_array.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../display/../misc/lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../display/../misc/lv_area.h \
  .pio/libdeps/esp32dev/lvgl/src/core/lv_obj_pos.h \
  .pio/libdeps/esp32dev/lvgl/src/core/lv_obj_scroll.h \
  .pio/libdeps/esp32dev/lvgl/src/core/lv_obj_style.h \
@@ -336,21 +343,23 @@
  .pio/libdeps/esp32dev/lvgl/src/core/lv_obj_draw.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_draw_rect.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_draw.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_style.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_text.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_profiler.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_matrix.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_event.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_style.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_text.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_profiler.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_matrix.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_event.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_image_decoder.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_draw_buf.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_fs.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_fs.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_area.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_color.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_draw_label.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_draw_rect.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_bidi.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../draw/../misc/lv_bidi.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_draw_image.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_draw_line.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../draw/lv_draw_arc.h \
@@ -361,13 +370,13 @@
  .pio/libdeps/esp32dev/lvgl/src/core/lv_obj_event.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../misc/lv_event.h \
  .pio/libdeps/esp32dev/lvgl/src/core/../indev/lv_indev.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_group.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_ll.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_timer.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_event.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../indev/../core/lv_group.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../indev/../core/../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../indev/../core/../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../indev/../core/../misc/lv_ll.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../indev/../misc/lv_area.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../indev/../misc/lv_timer.h \
+ .pio/libdeps/esp32dev/lvgl/src/core/../indev/../misc/lv_event.h \
  .pio/libdeps/esp32dev/lvgl/src/core/lv_group.h \
  .pio/libdeps/esp32dev/lvgl/src/core/lv_group.h \
  .pio/libdeps/esp32dev/lvgl/src/core/lv_refr.h \
@@ -380,193 +389,193 @@
  .pio/libdeps/esp32dev/lvgl/src/display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/font/lv_font.h \
  .pio/libdeps/esp32dev/lvgl/src/font/binfont_loader/lv_binfont_loader.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/font/binfont_loader/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/font/fmt_txt/lv_font_fmt_txt.h \
  .pio/libdeps/esp32dev/lvgl/src/font/fmt_txt/../lv_font.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/font/fmt_txt/../../misc/lv_types.h \
  .pio/libdeps/esp32dev/lvgl/src/font/imgfont/lv_imgfont.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\font\lv_font.h \
+ .pio/libdeps/esp32dev/lvgl/src/font/imgfont/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/font/imgfont/../../font/lv_font.h \
  .pio/libdeps/esp32dev/lvgl/src/font/font_manager/lv_font_manager.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\font\lv_font.h \
+ .pio/libdeps/esp32dev/lvgl/src/font/font_manager/../../font/lv_font.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/animimage/lv_animimage.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\widgets\image\lv_image.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_fs.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\draw\lv_draw.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_observer.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/animimage/../image/lv_image.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/animimage/../image/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/animimage/../image/../../core/lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/animimage/../image/../../misc/lv_fs.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/animimage/../image/../../draw/lv_draw.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/animimage/../image/../../core/lv_observer.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/animimage/../../misc/lv_types.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/arc/lv_arc.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_observer.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/arc/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/arc/../../core/lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/arc/../../core/lv_observer.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/arclabel/lv_arclabel.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/arclabel/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/bar/lv_bar.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_anim.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../../core/lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../../misc/lv_anim.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/lv_label.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\font\lv_font.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\font\lv_symbol_def.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_text.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\draw\lv_draw.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_observer.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_observer.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/../../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/../../core/lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/../../font/lv_font.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/../../font/lv_symbol_def.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/../../misc/lv_text.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/../../draw/lv_draw.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../label/../../core/lv_observer.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/bar/../../core/lv_observer.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/button/lv_button.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/button/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/button/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj_property.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/buttonmatrix/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/buttonmatrix/../../core/lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/buttonmatrix/../../core/lv_obj_property.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/calendar/lv_calendar.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/calendar/../buttonmatrix/lv_buttonmatrix.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/calendar/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/calendar/lv_calendar_chinese.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/calendar/lv_calendar.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/canvas/lv_canvas.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/canvas/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/canvas/../image/lv_image.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\draw\lv_draw_image.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/canvas/../../draw/lv_draw_image.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/chart/lv_chart.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/chart/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/chart/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/checkbox/lv_checkbox.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/checkbox/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/checkbox/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/dropdown/lv_dropdown.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/dropdown/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/dropdown/../label/lv_label.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/gif/lv_gif.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/gif/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/image/lv_image.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/imagebutton/lv_imagebutton.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/imagebutton/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/keyboard/lv_keyboard.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/keyboard/../buttonmatrix/lv_buttonmatrix.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/label/lv_label.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/led/lv_led.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/led/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/line/lv_line.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/line/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/list/lv_list.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/list/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/lottie/lv_lottie.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/lottie/../../misc/lv_types.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/menu/lv_menu.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj_property.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/menu/../../core/lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/menu/../../core/lv_obj_property.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/msgbox/lv_msgbox.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/msgbox/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/roller/lv_roller.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/roller/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/roller/../label/lv_label.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/scale/lv_scale.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/scale/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/scale/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/scale/../line/lv_line.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/scale/../image/lv_image.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_observer.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/scale/../../core/lv_observer.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/slider/lv_slider.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/slider/../bar/lv_bar.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/span/lv_span.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_observer.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj_property.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/span/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/span/../../core/lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/span/../../core/lv_observer.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/span/../../core/lv_obj_property.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/spinbox/lv_spinbox.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/spinbox/../textarea/lv_textarea.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\widgets\label\lv_label.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/spinbox/../textarea/../label/lv_label.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/spinner/lv_spinner.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj_property.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/spinner/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/spinner/../../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/spinner/../../core/lv_obj_property.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/switch/lv_switch.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/switch/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/switch/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/table/lv_table.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/table/../label/lv_label.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj_property.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/table/../../core/lv_obj_property.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/tabview/lv_tabview.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj_property.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/tabview/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/tabview/../../core/lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/tabview/../../core/lv_obj_property.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/textarea/lv_textarea.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/tileview/lv_tileview.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/tileview/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/win/lv_win.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/win/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/win/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/3dtexture/lv_3dtexture.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/3dtexture/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/widgets/ime/lv_ime_pinyin.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/ime/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/widgets/ime/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/debugging/sysmon/lv_sysmon.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_timer.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_observer.h \
+ .pio/libdeps/esp32dev/lvgl/src/debugging/sysmon/../../misc/lv_timer.h \
+ .pio/libdeps/esp32dev/lvgl/src/debugging/sysmon/../../core/lv_observer.h \
  .pio/libdeps/esp32dev/lvgl/src/debugging/monkey/lv_monkey.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/debugging/monkey/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/debugging/monkey/../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/debugging/test/lv_test.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/debugging/test/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/others/fragment/lv_fragment.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/others/fragment/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/others/file_explorer/lv_file_explorer.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/others/file_explorer/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/others/file_explorer/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/others/translation/lv_translation.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/others/translation/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/barcode/lv_barcode.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\widgets\canvas\lv_canvas.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/barcode/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/barcode/../../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/barcode/../../misc/lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/barcode/../../widgets/canvas/lv_canvas.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\draw\lv_image_decoder.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/bin_decoder/../../draw/lv_image_decoder.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/bmp/lv_bmp.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/bmp/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/rle/lv_rle.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/rle/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/fsdrv/lv_fsdrv.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/fsdrv/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/lodepng/lv_lodepng.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/lodepng/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/libpng/lv_libpng.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/libpng/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/libwebp/lv_libwebp.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/libwebp/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/gltf/gltf_data/lv_gltf_model.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/gltf/gltf_data/../../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/gltf/gltf_view/lv_gltf.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/gltf/gltf_view/../../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/gstreamer/lv_gstreamer.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/gstreamer/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/qrcode/lv_qrcode.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\widgets\canvas\lv_canvas.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/qrcode/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/qrcode/../../misc/lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/qrcode/../../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/qrcode/../../widgets/canvas/lv_canvas.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/tjpgd/lv_tjpgd.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/libjpeg_turbo/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/freetype/lv_freetype.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/freetype/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/rlottie/lv_rlottie.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/rlottie/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/ffmpeg/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/tiny_ttf/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/svg/lv_svg.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/libs/svg/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/libs/svg/lv_svg_render.h \
  .pio/libdeps/esp32dev/lvgl/src/layouts/lv_layout.h \
  .pio/libdeps/esp32dev/lvgl/src/draw/lv_draw_buf.h \
@@ -575,14 +584,14 @@
  .pio/libdeps/esp32dev/lvgl/src/draw/../misc/lv_matrix.h \
  .pio/libdeps/esp32dev/lvgl/src/draw/lv_draw_image.h \
  .pio/libdeps/esp32dev/lvgl/src/draw/sw/lv_draw_sw_utils.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_area.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/draw/eve/lv_draw_eve_target.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/eve/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/draw/snapshot/lv_snapshot.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\core\lv_obj.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/snapshot/../../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/themes/lv_theme.h \
  .pio/libdeps/esp32dev/lvgl/src/themes/../core/lv_obj.h \
  .pio/libdeps/esp32dev/lvgl/src/themes/default/lv_theme_default.h \
@@ -591,30 +600,30 @@
  .pio/libdeps/esp32dev/lvgl/src/themes/mono/../lv_theme.h \
  .pio/libdeps/esp32dev/lvgl/src/themes/simple/lv_theme_simple.h \
  .pio/libdeps/esp32dev/lvgl/src/themes/simple/../lv_theme.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/themes/simple/../../display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/lv_drivers.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/sdl/lv_sdl_window.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/sdl/../../display/lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/sdl/../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/sdl/lv_sdl_mouse.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/sdl/lv_sdl_window.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/sdl/lv_sdl_keyboard.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/x11/lv_x11.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\draw\lv_image_dsc.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/x11/../../display/lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/x11/../../indev/lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/x11/../../draw/lv_image_dsc.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/drm/lv_linux_drm.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/drm/../../../display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/fb/lv_linux_fbdev.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/fb/../../../display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/tft_espi/../../../display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/lovyan_gfx/lv_lovyan_gfx.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/lovyan_gfx/../../../display/lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/lovyan_gfx/../../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/lcd/../../../display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/ili9341/lv_ili9341.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/ili9341/../lcd/lv_lcd_generic_mipi.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/st7735/lv_st7735.h \
@@ -626,54 +635,50 @@
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/nv3007/../lcd/lv_lcd_generic_mipi.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/renesas_glcdc/../../../display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/st_ltdc/../../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/display/ft81x/lv_ft81x.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/display/ft81x/../../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/draw/eve/../../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/draw/eve/lv_draw_eve_display_defines.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/nuttx/lv_nuttx_entry.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/nuttx/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/nuttx/../../display/lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/nuttx/../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/nuttx/lv_nuttx_lcd.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/nuttx/lv_nuttx_libuv.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/evdev/lv_evdev.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/evdev/../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/libinput/lv_libinput.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/libinput/../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/windows/lv_windows_input.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/windows/../../display/lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/windows/../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/windows/lv_windows_display.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/opengles/lv_opengles_window.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/opengles/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/opengles/lv_opengles_texture.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/opengles/lv_opengles_driver.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/opengles/lv_opengles_glfw.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/opengles/lv_opengles_egl.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/qnx/lv_qnx.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/qnx/../../display/lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/qnx/../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/wayland/lv_wayland.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/wayland/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/uefi/lv_uefi_context.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/uefi/../../lv_conf_internal.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/uefi/lv_uefi_indev.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\indev\lv_indev.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/uefi/../../indev/lv_indev.h \
  .pio/libdeps/esp32dev/lvgl/src/drivers/uefi/lv_uefi_display.h \
- w:\ss\robot\.pio\libdeps\esp32dev\lvgl\src\display\lv_display.h \
+ .pio/libdeps/esp32dev/lvgl/src/drivers/uefi/../../display/lv_display.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v8.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_0.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_1.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_2.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_3.h \
- .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_4.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
- include/dustsensor.h include/temp_hum_sensor.h \
- .pio/libdeps/esp32dev/DHT11/src/DHT11.h
+ .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_4.h

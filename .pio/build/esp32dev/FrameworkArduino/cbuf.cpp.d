@@ -1,3 +1,3 @@
 .pio/build/esp32dev/FrameworkArduino/cbuf.cpp.o: \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.cpp \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.cpp \
+ /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h
