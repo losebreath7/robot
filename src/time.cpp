@@ -1,6 +1,6 @@
 #include "time.h"
 
-String time_getString();
+String GetTime();
 RTC_DS3231 rtc;         // Создаем объект для работы с RTC
 
 /*  Функция инициализрует время 
@@ -21,7 +21,7 @@ bool RTC_Init(void)
 /*  Функция возвращает текущее время в виде строки
  *  Формат: YYYY-MM-DD HH:MM:SS
  */
-String time_getString(void)
+String GetTime(void)
 {
     DateTime now = rtc.now();
 

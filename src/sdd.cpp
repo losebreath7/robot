@@ -49,7 +49,7 @@ bool sd_append(const char* path, const char* text) {
  */
 bool data_recording() {
   // получение данных
-  String ts = time_getString();   
+  String ts = GetTime();   
   int t = Temperature();
   int h = Humidity();
 
