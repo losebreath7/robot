@@ -3,7 +3,9 @@
 
 #include <TFT_eSPI.h>
 #include <SPI.h>
-#include <lvgl.h>
+
+#define TFT_HOR_RES 220
+#define TFT_VER_RES 170
 
 extern TFT_eSPI tft;  // СОЗДАЕМ ОБЬЕКТ, ПИНЫ ОПРЕДЕЛНЫ В User_Setup.h
 /*

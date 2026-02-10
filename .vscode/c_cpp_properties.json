@@ -10,6 +10,7 @@
             "includePath": [
                 "/Users/romanbenca/Desktop/Проект/robot/include",
                 "/Users/romanbenca/Desktop/Проект/robot/src",
+                "/Users/romanbenca/Desktop/Проект/robot/.pio/libdeps/esp32dev/Sharp GP2Y Dust Sensor",
                 "/Users/romanbenca/Desktop/Проект/robot/.pio/libdeps/esp32dev/lvgl",
                 "/Users/romanbenca/Desktop/Проект/robot/.pio/libdeps/esp32dev/lvgl/src",
                 "/Users/romanbenca/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
@@ -252,6 +253,7 @@
                 "path": [
                     "/Users/romanbenca/Desktop/Проект/robot/include",
                     "/Users/romanbenca/Desktop/Проект/robot/src",
+                    "/Users/romanbenca/Desktop/Проект/robot/.pio/libdeps/esp32dev/Sharp GP2Y Dust Sensor",
                     "/Users/romanbenca/Desktop/Проект/robot/.pio/libdeps/esp32dev/lvgl",
                     "/Users/romanbenca/Desktop/Проект/robot/.pio/libdeps/esp32dev/lvgl/src",
                     "/Users/romanbenca/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",

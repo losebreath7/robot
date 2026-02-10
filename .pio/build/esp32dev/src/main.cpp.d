@@ -139,7 +139,7 @@
  /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
  .pio/libdeps/esp32dev/TFT_eSPI/User_Setup_Select.h \
  .pio/libdeps/esp32dev/TFT_eSPI/User_Setup.h \
- .pio/libdeps/esp32dev/TFT_eSPI/TFT_Drivers/ILI9341_Defines.h \
+ .pio/libdeps/esp32dev/TFT_eSPI/TFT_Drivers/ILI9225_Defines.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Processors/TFT_eSPI_ESP32.h \
  /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_reg.h \
  /Users/romanbenca/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/spi_master.h \
@@ -230,8 +230,11 @@
  .pio/libdeps/esp32dev/TFT_eSPI/Fonts/Custom/Yellowtail_32.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Smooth_font.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Button.h \
- .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Sprite.h \
- .pio/libdeps/esp32dev/lvgl/lvgl.h \
+ .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Sprite.h include/sd.h \
+ include/dustsensor.h \
+ .pio/libdeps/esp32dev/Sharp\ GP2Y\ Dust\ Sensor/GP2YDustSensor.h \
+ include/temp_hum_sensor.h .pio/libdeps/esp32dev/DHT11/src/DHT11.h \
+ include/gui.h include/display.h .pio/libdeps/esp32dev/lvgl/lvgl.h \
  .pio/libdeps/esp32dev/lvgl/lv_version.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_init.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_conf_internal.h \
@@ -676,6 +679,4 @@
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_1.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_2.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_3.h \
- .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_4.h include/sd.h \
- include/dustsensor.h include/temp_hum_sensor.h \
- .pio/libdeps/esp32dev/DHT11/src/DHT11.h
+ .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_4.h

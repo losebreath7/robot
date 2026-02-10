@@ -1,9 +1,11 @@
-#include <Arduino.h>
+#include <Arduino.h>      
 #include "display.h"
 #include "sd.h"
 #include "dustsensor.h"
 #include "time.h"
 #include "temp_hum_sensor.h"
+#include "dustsensor.h"
+#include "gui.h"
 
 void setup() {
   // put your setup code here, to run once:
@@ -15,5 +17,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  process_gui(); 
 }
 
