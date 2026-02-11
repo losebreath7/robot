@@ -235,8 +235,9 @@
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
  include/dustsensor.h \
  .pio/libdeps/esp32dev/Sharp\ GP2Y\ Dust\ Sensor/GP2YDustSensor.h \
- include/temp_hum_sensor.h .pio/libdeps/esp32dev/DHT11/src/DHT11.h \
- include/gui.h include/display.h .pio/libdeps/esp32dev/lvgl/lvgl.h \
+ include/temp_hum_sensor.h \
+ .pio/libdeps/esp32dev/DHT\ sensor\ library/DHT.h include/gui.h \
+ include/display.h .pio/libdeps/esp32dev/lvgl/lvgl.h \
  .pio/libdeps/esp32dev/lvgl/lv_version.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_init.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_conf_internal.h \

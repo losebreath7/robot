@@ -11,20 +11,29 @@
 
 void setup()
 {
-  
+  Serial.begin(115200);
     gui_init();
     DisplayInit(); 
     
-    
+    dht11.begin();
     //2. датчик влажности и температуры 
-    Temperature(); 
-    Humidity();
-
+   
     //3. Инициализация времени 
     RTC_Init(); 
     Serial.println( GetTime() );  
 
     // функции инициализации RTC модуля
+
+    drawTime();
+    UpdateTime("02:11");
+
+    drawHum(); 
+    drawTemperature();
+
+    //int temperature, humidity = 0;
+    //int result = dht11.readTemperatureHumidity(temperature, humidity);
+    
+    
    
 }
 
@@ -33,4 +42,12 @@ void loop() {
   //  Функция для обработки событий LVGL
   //  Должна вызываться в основном цикле программы
   process_gui(); 
+
+  float humidity = dht11.readHumidity();
+    float h = dht11.readHumidity();
+    UpdateHum(h);
+
+    float temperature = dht11.readTemperature();
+    float t = dht11.readTemperature();
+    updateTemperature(t);
 }

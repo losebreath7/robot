@@ -35,3 +35,4 @@ String GetTime(void)
 
     return String(buf);
 }
+

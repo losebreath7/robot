@@ -1,6 +1,7 @@
-.pio/build/esp32dev/libb32/DHT11/DHT11.cpp.o: \
- .pio/libdeps/esp32dev/DHT11/src/DHT11.cpp \
- .pio/libdeps/esp32dev/DHT11/src/DHT11.h \
+.pio/build/esp32dev/lib6c6/DHT\ sensor\ library/DHT_U.cpp.o: \
+ .pio/libdeps/esp32dev/DHT\ sensor\ library/DHT_U.cpp \
+ .pio/libdeps/esp32dev/DHT\ sensor\ library/DHT_U.h \
+ .pio/libdeps/esp32dev/Adafruit\ Unified\ Sensor/Adafruit_Sensor.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/FreeRTOS.h \
@@ -134,4 +135,6 @@
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash_counters.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ .pio/libdeps/esp32dev/DHT\ sensor\ library/DHT.h

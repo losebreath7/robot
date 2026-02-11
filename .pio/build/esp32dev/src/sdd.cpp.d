@@ -139,4 +139,4 @@
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
  include/sdd.h include/temp_hum_sensor.h \
- .pio/libdeps/esp32dev/DHT11/src/DHT11.h include/time.h
+ .pio/libdeps/esp32dev/DHT\ sensor\ library/DHT.h include/time.h
