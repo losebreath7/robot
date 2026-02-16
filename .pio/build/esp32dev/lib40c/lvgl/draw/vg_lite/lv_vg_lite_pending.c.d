@@ -1,9 +1,0 @@
-.pio/build/esp32dev/lib40c/lvgl/draw/vg_lite/lv_vg_lite_pending.c.o: \
- .pio/libdeps/esp32dev/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c \
- .pio/libdeps/esp32dev/lvgl/src/draw/vg_lite/lv_vg_lite_pending.h \
- .pio/libdeps/esp32dev/lvgl/src/draw/vg_lite/../../misc/lv_types.h \
- w:\ss\robotroma\robotroma\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
- w:\ss\robotroma\robotroma\.pio\libdeps\esp32dev\lvgl\src\lv_conf_kconfig.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include/sdkconfig.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_attr.h \
- .pio/libdeps/esp32dev/lvgl/lv_conf.h

@@ -1,0 +1,35 @@
+.pio/build/esp32dev/libc27/lvgl/draw/sw/lv_draw_sw_utils.c.o: \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/lv_draw_sw_utils.c \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/lv_draw_sw_utils.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../lv_conf_kconfig.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include/sdkconfig.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_common/include/esp_attr.h \
+ .pio/libdeps/esp32dev/lvgl/lv_conf.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_area.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_math.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_assert.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_log.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\stdlib\lv_mem.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\stdlib\lv_string.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_palette.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_color.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../misc/lv_color_op.h \
+ .pio/libdeps/esp32dev/lvgl/src/draw/sw/../../display/lv_display.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_timer.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\tick\lv_tick.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\lv_conf_internal.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_types.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_ll.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_event.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_array.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_color.h \
+ w:\ss\robotroma\.pio\libdeps\esp32dev\lvgl\src\misc\lv_area.h

@@ -32,12 +32,12 @@ float DustSensorRead(void)
   dustDensity = raw / 1.667f;
 
   if (dustDensity < 0.0f || dustDensity > 2000.0f) {
-    Serial.print("Значение уровня пыли выходит за пределы допустимого диапазона: ");
-    Serial.println(dustDensity);
+    //Serial.print("Значение уровня пыли выходит за пределы допустимого диапазона: ");
+    //Serial.println(dustDensity);
   } else {
-    Serial.print("Пыль: ");
-    Serial.print(dustDensity);
-    Serial.println(" мг/м3");
+    //Serial.print("Пыль: ");
+    //Serial.print(dustDensity);
+    //Serial.println(" мг/м3");
   }
 
   return dustDensity;

@@ -15,17 +15,29 @@
  */
 
 static const int SD_CS   = 5;
+static const int SD_SCK  = 18;
+static const int SD_MISO = 19;
+static const int SD_MOSI = 23;
+
+static SPIClass sdSPI(HSPI);
+
 bool sd_init() {
+  Serial.println("[SD] init...");
 
-    Serial.println("[SD] init...");
+  pinMode(SD_CS, OUTPUT);
+  digitalWrite(SD_CS, HIGH);
 
-    if (!SD.begin(CS_PIN)) {
-        Serial.println("[SD] FAILED");
-        return false;
-    }
+  // ВАЖНО: отдельная SPI-шина (контроллер)
+  sdSPI.begin(SD_SCK, SD_MISO, SD_MOSI, SD_CS);
 
-    Serial.println("Успешная инициализация sd-карты");
-    return true;
+  // Низкая частота старта для надёжности
+  if (!SD.begin(SD_CS, sdSPI, 1000000)) {
+    Serial.println("[SD] FAILED");
+    return false;
+  }
+
+  Serial.println("Успешная инициализация sd-карты");
+  return true;
 }
 
 /*  Добавляет текстовую строку в файл на SD-карте.
