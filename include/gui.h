@@ -19,5 +19,8 @@ void UpdateHum(float humidity);
 void drawTemperature(void);
 void updateTemperature(float temperature);
 
+void drawDust(void);
+void updateDust(float dust);
+
 
 #endif // GUI_H

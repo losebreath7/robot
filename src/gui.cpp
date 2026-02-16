@@ -6,6 +6,8 @@ static lv_obj_t *time_label = NULL;
 static lv_obj_t * hum_label = NULL;
 // ОТОБРАЖЕНИЕ ТЕМПЕРАТУРЫ
 static lv_obj_t *temp_label = NULL;
+// ОТОБРАЖЕНИЕ ПЫЛИ
+static lv_obj_t *dust_label = NULL;
 
 
 static uint8_t buf[TFT_HOR_RES * TFT_VER_RES / 10 * 2]; /* x2 ПОТОМУ ЧТО 16 БИТНАЯ ГЛУБИНА ЦВЕТА */
@@ -72,9 +74,9 @@ void drawTime(void){
      
     if (time_label == NULL) {
         time_label = lv_label_create(lv_screen_active());
-        lv_obj_set_style_text_font(time_label, &lv_font_montserrat_28, 0);
+        lv_obj_set_style_text_font(time_label, &lv_font_montserrat_22, 0);
         lv_obj_set_style_text_color(time_label, lv_color_hex(0xFFFFFF), 0);
-        lv_obj_set_style_bg_color(time_label, lv_color_hex(0x333333), 0);
+        lv_obj_set_style_bg_color(time_label, lv_color_hex(0x1450B6), 0);
         lv_obj_set_style_bg_opa(time_label, LV_OPA_70, 0);
         lv_obj_set_style_pad_all(time_label, 10, 0);
         lv_obj_set_style_radius(time_label, 10, 0);
@@ -92,9 +94,9 @@ void drawHum(void){
 
     if (hum_label == NULL) {
         hum_label = lv_label_create(lv_screen_active());
-        lv_obj_set_style_text_font(hum_label, &lv_font_montserrat_28, 0);
+        lv_obj_set_style_text_font(hum_label, &lv_font_montserrat_22, 0);
         lv_obj_set_style_text_color(hum_label, lv_color_hex(0xFFFFFF), 0);
-        lv_obj_set_style_bg_color(hum_label, lv_color_hex(0x333333), 0);
+        lv_obj_set_style_bg_color(hum_label, lv_color_hex(0x1450B6), 0);
         lv_obj_set_style_bg_opa(hum_label, LV_OPA_70, 0);
         lv_obj_set_style_pad_all(hum_label, 10, 0);
         lv_obj_set_style_radius(hum_label, 10, 0);
@@ -105,7 +107,7 @@ void drawHum(void){
 
 void UpdateHum(float humidity){
     char buf[32];
-    snprintf(buf, sizeof(buf), " %0.f %%", humidity);
+    snprintf(buf, sizeof(buf), "h: %0.f %%", humidity);
     lv_label_set_text(hum_label, buf);
 }
 
@@ -115,20 +117,44 @@ void drawTemperature(void) {
     if (temp_label == NULL) {
         temp_label = lv_label_create(lv_screen_active());
 
-        lv_obj_set_style_text_font(temp_label, &lv_font_montserrat_28, 0);
+        lv_obj_set_style_text_font(temp_label, &lv_font_montserrat_22, 0);
         lv_obj_set_style_text_color(temp_label, lv_color_hex(0xFFFFFF), 0);
-        lv_obj_set_style_bg_color(temp_label, lv_color_hex(0x333333), 0);
+        lv_obj_set_style_bg_color(temp_label, lv_color_hex(0x1450B6), 0);
         lv_obj_set_style_bg_opa(temp_label, LV_OPA_70, 0);
         lv_obj_set_style_pad_all(temp_label, 10, 0);
         lv_obj_set_style_radius(temp_label, 10, 0);
 
-        lv_obj_align(temp_label, LV_ALIGN_TOP_LEFT, 10, 80);
+        lv_obj_align(temp_label, LV_ALIGN_TOP_LEFT, 10, 60);
         //lv_label_set_text(temp_label, "Temp: -- °C");
     }
 }
 
 void updateTemperature(float temperature) {
     char buf[32];
-    snprintf(buf, sizeof(buf), "Temp: %0.f °C", temperature);
+    snprintf(buf, sizeof(buf), "t: %0.f °C", temperature);
     lv_label_set_text(temp_label, buf);
 }
+
+
+void drawDust(void) {
+
+    if (dust_label == NULL) {
+        dust_label = lv_label_create(lv_screen_active());
+
+        lv_obj_set_style_text_font(dust_label, &lv_font_montserrat_22, 0);
+        lv_obj_set_style_text_color(dust_label, lv_color_hex(0xFFFFFF), 0);
+        lv_obj_set_style_bg_color(dust_label, lv_color_hex(0x1450B6), 0);
+        lv_obj_set_style_bg_opa(dust_label, LV_OPA_70, 0);
+        lv_obj_set_style_pad_all(dust_label, 10, 0);
+        lv_obj_set_style_radius(dust_label, 10, 0);
+
+        lv_obj_align(dust_label, LV_ALIGN_TOP_LEFT, 10, 110);
+    }
+}
+
+void updateDust(float dust) {
+    char buf[32];
+    snprintf(buf, sizeof(buf), "d: %0.f ug/m3", dust);
+    lv_label_set_text(dust_label, buf);
+}
+    

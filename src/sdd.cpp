@@ -1,8 +1,10 @@
 #include <Arduino.h>
 #include <FS.h>
+#include <SPI.h>
 #include <SD.h>
 
 #include "sdd.h"
+
 
 /*  Инициализирует модуль SD-карты.
  *  Выполняет подключение SD-карты по SPI и проверяет её доступность.
@@ -11,12 +13,18 @@
  *  true  — если SD-карта успешно инициализирована,
  *  false — если инициализация не удалась.
  */
+
+static const int SD_CS   = 5;
 bool sd_init() {
+
+    Serial.println("[SD] init...");
+
     if (!SD.begin(CS_PIN)) {
-        Serial.println("Не удалось инициализировать SD");
+        Serial.println("[SD] FAILED");
         return false;
     }
-    Serial.println("Успешная инициализация SD");
+
+    Serial.println("Успешная инициализация sd-карты");
     return true;
 }
 
@@ -48,6 +56,7 @@ bool sd_append(const char* path, const char* text) {
  *  формирует строку в формате CSV и сохраняет её в файл журнала.
  */
 bool data_recording() {
+    
   // получение данных
   String ts = GetTime();   
   int t = Temperature();

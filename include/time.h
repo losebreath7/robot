@@ -12,5 +12,6 @@ extern RTC_DS3231 rtc;         // Создаем объект для работ�
  */
 bool RTC_Init(void);
 String GetTime(void);
+String GetTimeHM(void);
 
 #endif  // TIM_H

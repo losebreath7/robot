@@ -133,10 +133,18 @@
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
- include/display.h .pio/libdeps/esp32dev/TFT_eSPI/TFT_eSPI.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/SD.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
+ include/dustsensor.h \
+ .pio/libdeps/esp32dev/Sharp\ GP2Y\ Dust\ Sensor/GP2YDustSensor.h \
+ include/temp_hum_sensor.h \
+ .pio/libdeps/esp32dev/DHT\ sensor\ library/DHT.h include/sdd.h \
+ include/temp_hum_sensor.h include/time.h include/gui.h include/display.h \
+ .pio/libdeps/esp32dev/TFT_eSPI/TFT_eSPI.h \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
  .pio/libdeps/esp32dev/TFT_eSPI/User_Setup_Select.h \
  .pio/libdeps/esp32dev/TFT_eSPI/User_Setup.h \
  .pio/libdeps/esp32dev/TFT_eSPI/TFT_Drivers/ILI9225_Defines.h \
@@ -159,7 +167,6 @@
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_cntl_reg.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_io_reg.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include/hal/misc.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src/SPIFFS.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Fonts/glcdfont.c \
  .pio/libdeps/esp32dev/TFT_eSPI/Fonts/Font16.h \
@@ -231,13 +238,7 @@
  .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Smooth_font.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Button.h \
  .pio/libdeps/esp32dev/TFT_eSPI/Extensions/Sprite.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd.h \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd_defines.h \
- include/dustsensor.h \
- .pio/libdeps/esp32dev/Sharp\ GP2Y\ Dust\ Sensor/GP2YDustSensor.h \
- include/temp_hum_sensor.h \
- .pio/libdeps/esp32dev/DHT\ sensor\ library/DHT.h include/gui.h \
- include/display.h .pio/libdeps/esp32dev/lvgl/lvgl.h \
+ .pio/libdeps/esp32dev/lvgl/lvgl.h \
  .pio/libdeps/esp32dev/lvgl/lv_version.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_init.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_conf_internal.h \
@@ -682,4 +683,4 @@
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_1.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_2.h \
  .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_3.h \
- .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_4.h
+ .pio/libdeps/esp32dev/lvgl/src/lv_api_map_v9_4.h include/display.h

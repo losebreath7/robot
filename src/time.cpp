@@ -12,6 +12,7 @@ bool RTC_Init(void)
 
     if (rtc.begin()){
         Serial.println("Успешная инициализации RTC модуля");
+       
         return true;
     } else {
         Serial.println("Ошибка инициализации RTC модуля");
@@ -31,6 +32,24 @@ String GetTime(void)
         "%04d-%02d-%02d %02d:%02d:%02d",
         now.year(), now.month(), now.day(),
         now.hour(), now.minute(), now.second()
+    );
+
+    return String(buf);
+}
+
+/*
+ * Возвращает текущее время в формате HH:MM
+ */
+String GetTimeHM(void)
+{
+    DateTime now = rtc.now();
+
+    char buf[6];   // "HH:MM" + \0 = 6 символов
+    snprintf(
+        buf, sizeof(buf),
+        "%02d:%02d",
+        now.hour(),
+        now.minute()
     );
 
     return String(buf);

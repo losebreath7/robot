@@ -1,5 +1,5 @@
 .pio/build/esp32dev/liba9e/SD/SD.cpp.o: \
- C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/sd.cpp \
+ C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/SD/src/SD.cpp \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/vfs_api.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
