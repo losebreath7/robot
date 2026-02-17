@@ -1,86 +1,96 @@
 #include <Arduino.h>
 #include <FS.h>
-#include <SPI.h>
 #include <SD.h>
+#include <SPI.h>
 
 #include "sdd.h"
 
+// Пины SD на HSPI 
+#define HSPI_MISO   35
+#define HSPI_MOSI   13
+#define HSPI_SCLK   14
+#define HSPI_CS     5
 
-/*  Инициализирует модуль SD-карты.
- *  Выполняет подключение SD-карты по SPI и проверяет её доступность.
- *
- *  Возвращает:
- *  true  — если SD-карта успешно инициализирована,
- *  false — если инициализация не удалась.
+// Пин CS дисплея
+#define TFT_CS      26
+
+static SPIClass *hspi = nullptr;
+static bool sd_ok = false;
+
+/*
+ * Функция инициализирует SD-карту
  */
+bool sd_init()
+{
+    Serial.println("Инициализация SD-карты (HSPI)...");
 
-static const int SD_CS   = 5;
-static const int SD_SCK  = 18;
-static const int SD_MISO = 19;
-static const int SD_MOSI = 23;
+    // Создание HSPI 
+    if (hspi == nullptr) {
+        hspi = new SPIClass(HSPI);
+        hspi->begin(HSPI_SCLK, HSPI_MISO, HSPI_MOSI, HSPI_CS);
+    }
 
-static SPIClass sdSPI(HSPI);
+    pinMode(HSPI_CS, OUTPUT);
+    digitalWrite(HSPI_CS, HIGH);
 
-bool sd_init() {
-  Serial.println("[SD] init...");
-
-  pinMode(SD_CS, OUTPUT);
-  digitalWrite(SD_CS, HIGH);
-
-  // ВАЖНО: отдельная SPI-шина (контроллер)
-  sdSPI.begin(SD_SCK, SD_MISO, SD_MOSI, SD_CS);
-
-  // Низкая частота старта для надёжности
-  if (!SD.begin(SD_CS, sdSPI, 1000000)) {
-    Serial.println("[SD] FAILED");
-    return false;
-  }
-
-  Serial.println("Успешная инициализация sd-карты");
-  return true;
-}
-
-/*  Добавляет текстовую строку в файл на SD-карте.
- *  Открывает файл в режиме добавления (FILE_APPEND) и записывает переданные данные.
- *
- *  Параметры:
- *  path — путь к файлу на SD-карте,
- *  text — строка данных для записи.
- *
- *  Возвращает:
- *  true  — если запись выполнена успешно,
- *  false — если файл не удалось открыть или записать данные.
- */
-bool sd_append(const char* path, const char* text) {
-    File file = SD.open(path, FILE_APPEND);
-    if (!file) {
-        Serial.println("Не удалось открыть файл для добавления данных.");
+    sd_ok = SD.begin(HSPI_CS, *hspi, 1000000);
+    if (!sd_ok) {
+        Serial.println("Не удалось инициализировать SD-карту");
         return false;
     }
 
-    file.print(text);
-    file.close();
+    uint8_t cardType = SD.cardType();
+    Serial.print("Карта инициализирована. Тип: ");
+    if (cardType == CARD_MMC) Serial.println("MMC");
+    else if (cardType == CARD_SD) Serial.println("SDSC");
+    else if (cardType == CARD_SDHC) Serial.println("SDHC");
+    else Serial.println("UNKNOWN");
+
+    uint64_t cardSize = SD.cardSize() / (1024ULL * 1024ULL);
+    Serial.printf("Размер: %llu MB\n", cardSize);
+
     return true;
 }
 
-/*  Выполняет сбор данных и их запись на SD-карту.
- *  Получает текущее время, считывает значения температуры и влажности,
- *  формирует строку в формате CSV и сохраняет её в файл журнала.
+/*
+ * Функция открывает файл 
  */
-bool data_recording() {
-    
-  // получение данных
-  String ts = GetTime();   
-  int t = Temperature();
-  int h = Humidity();
+bool sd_append(const char *path, const char *text)
+{
+    if (!sd_ok) {
+        Serial.println("Запись невозможна: SD не инициализирована");
+        return false;
+    }
 
-  // форматирование в строку CSV
-  char line[64];
-  snprintf(line, sizeof(line), "%s,%d,%d\n", ts.c_str(), t, h);
+    File file = SD.open(path, FILE_APPEND);
+    if (!file) {
+        Serial.printf("Не удалось открыть файл для добавления: %s\n", path);
+        return false;
+    }
 
-  // 3) запись данных на карту
-  return sd_append("/log.csv", line);
+    size_t written = file.print(text);
+    file.close();
+
+    if (written == 0) {
+        Serial.println("Запись не удалась (0 байт)");
+        return false;
+    }
+
+    Serial.printf("Записано %u байт в %s\n", (unsigned)written, path);
+    return true;
 }
 
+/*
+ * Фуекция записывает одну строку CSV
+ */
+bool data_recording(const char *timeHM, int t, int h, float dust)
+{
+    // CSV: HH:MM,temp,hum,dust
+    char line[80];
+    snprintf(line, sizeof(line), "%s,%d,%d,%.0f\n", timeHM, t, h, dust);
 
+    Serial.print("Строка: ");
+    Serial.print(line);
 
+    return sd_append("/data.csv", line);
+}

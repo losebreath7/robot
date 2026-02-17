@@ -1,5 +1,4 @@
 #include <Arduino.h>
-//#include <DHT11.h>
 #include <DHT.h>
 
 

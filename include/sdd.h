@@ -1,13 +1,8 @@
-#include <Arduino.h>
-#include <FS.h>
-#include <SD.h>
-#include <SPI.h>
-#include "temp_hum_sensor.h"
-#include "time.h"
-
-
-#define CS_PIN 5
+#ifndef SDD_H
+#define SDD_H
 
 bool sd_init();
-bool sd_append();
-bool data_recording();
+bool sd_append(const char *path, const char *text);
+bool data_recording(const char *timeHM, int t, int h, float dust);
+
+#endif

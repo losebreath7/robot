@@ -142,7 +142,7 @@
  .pio/libdeps/esp32dev/Sharp\ GP2Y\ Dust\ Sensor/GP2YDustSensor.h \
  include/temp_hum_sensor.h \
  .pio/libdeps/esp32dev/DHT\ sensor\ library/DHT.h include/sdd.h \
- include/temp_hum_sensor.h include/time.h include/gui.h include/display.h \
+ include/gui.h include/display.h \
  .pio/libdeps/esp32dev/TFT_eSPI/TFT_eSPI.h \
  C:/Users/losebreath/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
  .pio/libdeps/esp32dev/TFT_eSPI/User_Setup_Select.h \

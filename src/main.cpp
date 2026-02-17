@@ -8,59 +8,82 @@
 #include "gui.h"
 #include "display.h"
 
+// Тайминги
+static const uint32_t GUI_PERIOD_MS   = 5;       // дисплей
+static const uint32_t SENS_PERIOD_MS  = 1000;    // датчики
+static const uint32_t SD_PERIOD_MS    = 5000;    // запись на SD 
 
+static uint32_t tSens = 0;
+static uint32_t tSd   = 0;
+
+static int lastT = 0;
+static int lastH = 0;
+static float lastDust = 0;
 
 void setup()
 {
-  Serial.begin(115200);
-  delay(300);
+    Serial.begin(115200);
+    delay(200);
     
-    sd_init();
-    delay(1000);
+    // Инициализация SD-карты
+    if (!sd_init()) {
+        Serial.println("Ошибка при инициализации SD-карты");
+    }
 
+    // Инициализация дисплея 
     DisplayInit();
-    //delay(200);
     gui_init();
 
+    // Инициализация RTC модуля
+    RTC_Init();
+
+    // Инициализация датчика температуры и влажности
     dht11.begin();
-    //2. датчик влажности и температуры 
-   
-    //3. Инициализация времени 
-    RTC_Init(); 
-    Serial.println(GetTime());  
 
-    // функции инициализации RTC модуля
+    // Инициализация датчика пыли
     DustSensorInit();
-    //GetDustDensity();
 
+    // Отображение на дисплее
     drawTime();
-    //UpdateTime("19:11");
-
-    drawHum(); 
+    drawHum();
     drawTemperature();
     drawDust();
-   
+
+    // Первое обновление сразу
+    tSens = millis();
+    tSd = millis();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  //  Функция для обработки событий LVGL
-  //  Должна вызываться в основном цикле программы
-  
-  process_gui(); 
+void loop()
+{
+    process_gui();
 
-  String timeHM = GetTimeHM();
-  UpdateTime(timeHM.c_str());
+    uint32_t now = millis();
 
-  float humidity = dht11.readHumidity();
-  float h = dht11.readHumidity();
-  UpdateHum(h);
+    // Обновление датчиков 
+    if (now - tSens >= SENS_PERIOD_MS) {
+        tSens = now;
 
-  float temperature = dht11.readTemperature();
-  float t = dht11.readTemperature();
-  updateTemperature(t);
+        String hm = GetTimeHM();
+        UpdateTime(hm.c_str());
 
-  float d = DustSensorRead();     
-  updateDust(d);
-    
+        lastH = (int)dht11.readHumidity();
+        lastT = (int)dht11.readTemperature();
+
+        lastDust = DustSensorRead();
+
+        UpdateHum(lastH);
+        updateTemperature((float)lastT);
+        updateDust(lastDust);
+    }
+
+    // Запись на SD 
+    if (now - tSd >= SD_PERIOD_MS) {
+        tSd = now;
+
+        String hm = GetTimeHM();
+        bool ok = data_recording(hm.c_str(), lastT, lastH, lastDust);
+        Serial.print("Запись на SD-карту = ");
+        Serial.println(ok ? "успешно" : "неуспешно");
+    }
 }
